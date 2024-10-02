@@ -28,7 +28,7 @@ import pygame
 # Record the sentences that are the same each time, making sure the TTS function isnt abused, there by saving money on the API.
 
 tts_engine = pyttsx3.init()
-openai_api_key = os.getenv('OPENAI_API_KEY') # Add environment variable in cmd with " setx OPENAI_API_KEY "Add api key here" "
+openai_api_key = os.getenv('OPENAI_API_KEY') # Add environment variable in cmd (use as admin) with " setx OPENAI_API_KEY "Add api key here" "
 client = OpenAI(api_key=openai_api_key)
 conversation_log = "conversation_log_ALLY.txt"
 command_log = "command_log_ALLY.txt"
