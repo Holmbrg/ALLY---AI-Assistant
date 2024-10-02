@@ -17,7 +17,7 @@ import threading
 
 # ALLY - Assistive Learning and Logic Yield
 
-openai_api_key = os.getenv('OPENAI_API_KEY')
+openai_api_key = os.getenv('OPENAI_API_KEY') # Add environment variable in cmd (use as admin) with " setx OPENAI_API_KEY "Add api key here" "
 client = OpenAI(api_key=openai_api_key)
 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
@@ -25,7 +25,7 @@ os.environ['GRPC_VERBOSITY'] = 'ERROR'
 warnings.filterwarnings("ignore")
 logging.getLogger().setLevel(logging.ERROR)
 pytesseract.pytesseract.tesseract_cmd = r'C:\Programmer\Tesseract-OCR\tesseract.exe'
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = 'c:\\ALLY - AI Assistant\\fabled-gist-429918-k7-3f2dfb1ef283.json'
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = 'c:\\ALLY - AI Assistant\\fabled-gist-429918-k7-3f2dfb1ef283.json' # Add google api key here, see README.txt
 
 class ScreenshotHandler(FileSystemEventHandler):
     def __init__(self):
