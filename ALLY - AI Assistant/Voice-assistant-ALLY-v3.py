@@ -28,6 +28,9 @@ from typing import Optional, Tuple, List
 # Allow the AI to make its own memory documents about different things such as shopping lists, that it can delete when no longer needed.
 # Record the sentences that are the same each time, making sure the TTS function isn't abused, thereby saving money on the API. <- Done.
 
+# The voice assistant is pretty self explanatory, especially when you see the cmd window. Talk to it and it responds, 
+# it should guide you, roughly, through how parts of it works. In regards to, for example, what you have to respond to certain things.
+
 tts_engine = pyttsx3.init()
 openai_api_key = os.getenv('OPENAI_API_KEY')  # Add environment variable in cmd (use as admin) with "setx OPENAI_API_KEY 'Add api key here'"
 client = OpenAI(api_key=openai_api_key)
