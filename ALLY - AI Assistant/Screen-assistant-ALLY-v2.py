@@ -16,6 +16,11 @@ from typing import Optional, Tuple, List
 
 # ALLY - Assistive Learning and Logic Yield
 
+# The screen assistant, when activated, checks for any screenshot taken. 
+# I personally recommend using the shortcut 'win + shift + s' for taking screenshots, this allows you to mark exactly the part you want examined.
+# You can even write in, say, a word document, what you want for it to do, use said shortcut, mark what you want done and it will respond to that specifically.
+# Keep in mind, if you take screenshots of your entire screen, it will look at all possible words on the screen. This might interfere with the response.
+
 openai_api_key = os.getenv('OPENAI_API_KEY')  # Add environment variable in cmd (use as admin) with " setx OPENAI_API_KEY 'Add api key here' "
 client = OpenAI(api_key=openai_api_key)
 
