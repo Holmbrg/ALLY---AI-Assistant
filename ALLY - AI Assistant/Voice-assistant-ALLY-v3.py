@@ -31,6 +31,10 @@ from typing import Optional, Tuple, List
 # The voice assistant is pretty self explanatory, especially when you see the cmd window. Talk to it and it responds, 
 # it should guide you, roughly, through how parts of it works. In regards to, for example, what you have to respond to certain things.
 
+# Troubleshooting:
+# If the cmd window does not open upon click the shortcut, make sure you are using the correct shortcut,
+# and otherwise, locate the .ahk files, double left click them, and try again.
+
 tts_engine = pyttsx3.init()
 openai_api_key = os.getenv('OPENAI_API_KEY')  # Add environment variable in cmd (use as admin) with "setx OPENAI_API_KEY 'Add api key here'"
 client = OpenAI(api_key=openai_api_key)
