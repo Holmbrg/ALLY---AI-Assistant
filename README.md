@@ -12,4 +12,7 @@ To use program, make sure you have the following set up:
 
 3: Make sure the program is downloaded right on to your disk, under "C:"
 
+4: Make sure to double left click each of the AutoHotKey files, or .ahk files, since that activates the shortcut. If it stops working at some point,
+a solution will often be, to go back and double left click these files again, sometimes the PC can deactivate the .ahk files.
+
 Extra note; It is possible to run the code using open source methods, i choose not to for quality purposes, and so you don't need a very strong computer to run it.
