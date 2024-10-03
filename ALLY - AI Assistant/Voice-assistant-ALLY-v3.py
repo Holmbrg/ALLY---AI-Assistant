@@ -24,9 +24,9 @@ from typing import Optional, Tuple, List
 
 # ALLY - Assistive Learning and Logic Yield.
 
-# v3 - Project: Make conversations more fluent, add stop command to stop the AI from speaking and ready to handle new input.
+# v3 - Project: Make conversations more fluent, add stop command to stop the AI from speaking and ready to handle new input. <- Done.
 # Allow the AI to make its own memory documents about different things such as shopping lists, that it can delete when no longer needed.
-# Record the sentences that are the same each time, making sure the TTS function isn't abused, thereby saving money on the API.
+# Record the sentences that are the same each time, making sure the TTS function isn't abused, thereby saving money on the API. <- Done.
 
 tts_engine = pyttsx3.init()
 openai_api_key = os.getenv('OPENAI_API_KEY')  # Add environment variable in cmd (use as admin) with "setx OPENAI_API_KEY 'Add api key here'"
