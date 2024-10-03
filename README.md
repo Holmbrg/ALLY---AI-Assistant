@@ -23,13 +23,14 @@ The voice assistant is pretty self explanatory, especially when you see the cmd 
 Talk to it and it responds, it should guide you, roughly, through how parts of it works.
 In regards to, for example, what you have to respond to certain things.
 Troubleshooting:
-1) If the cmd window does not open upon click the shortcut, make sure you are using the correct shortcut,
+If the cmd window does not open upon click the shortcut, make sure you are using the correct shortcut,
 and otherwise, locate the .ahk files, double left click them, and try again.
 
 The screen assistant, when activated, checks for any screenshot taken. 
 I personally recommend using the shortcut 'win + shift + s', this allows you to mark exactly the part you want examined.
 You can even write in, say, a word document, what you want for it to do, use said shortcut, mark what you want done and it will respond to that specifically.
 Keep in mind, if you take screenshots of your entire screen, it will look at all possible words on the screen. This might interfere with the response.
+
 Sometimes, when starting up the program after your PC has been closed or restarted, it might not work first time starting it. The fix here is simple;
 1) If the cmd window does not open at all upon clicking the shortcut, firstly make sure your are using the correct shortcut, secondly, locate the .ahk files
 and double left click them, then try again.
