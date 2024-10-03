@@ -21,6 +21,11 @@ from typing import Optional, Tuple, List
 # You can even write in, say, a word document, what you want for it to do, use said shortcut, mark what you want done and it will respond to that specifically.
 # Keep in mind, if you take screenshots of your entire screen, it will look at all possible words on the screen. This might interfere with the response.
 
+# 1) If the cmd window does not open at all upon clicking the shortcut, firstly make sure your are using the correct shortcut, secondly, locate the .ahk files
+# and double left click them, then try again.
+
+# 2) If the cmd window does pop up, but the loading screen is very slow, or doesnt come up, close the cmd window, wait a second, and start it again, then it should work.
+
 openai_api_key = os.getenv('OPENAI_API_KEY')  # Add environment variable in cmd (use as admin) with " setx OPENAI_API_KEY 'Add api key here' "
 client = OpenAI(api_key=openai_api_key)
 
