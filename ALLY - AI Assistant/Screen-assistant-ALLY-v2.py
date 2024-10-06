@@ -34,6 +34,7 @@ os.environ['GRPC_VERBOSITY'] = 'ERROR'
 warnings.filterwarnings("ignore")
 logging.getLogger().setLevel(logging.ERROR)
 pytesseract.pytesseract.tesseract_cmd = r'C:\Programmer\Tesseract-OCR\tesseract.exe'
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = 'C:\\ALLY - AI Assistant\\fabled-gist-429918-k7-3f2dfb1ef283.json'  # Add Google API key here, see README.txt
 
 class ScreenshotHandler(FileSystemEventHandler):
     """
