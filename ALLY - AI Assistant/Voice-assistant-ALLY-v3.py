@@ -83,7 +83,7 @@ def transcribe_audio() -> str:
                 if silence_counter > 30:  # Adjust the threshold as necessary
                     print("Silence detected, waiting for input...")
                     return ""
-                # PROBLEM: This still plays the system_notis sound after silence detected, I want it to play the system notice sound only once
+                # PROBLEM: This still plays the system_notis sound after silence detected.
 
 def callback(indata: bytes, frames: int, time, status) -> None:
     """
