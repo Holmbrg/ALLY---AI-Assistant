@@ -6,9 +6,12 @@ To use program, make sure you have the following set up:
 
 1: Environment variable called "OPENAI_API_KEY" this should contain you openai api key.
 
-2: Make sure the program is downloaded right on to your disk, under "C:"
+2: Add Google API key here. In the document named 'fabled-gist-429918-k7-3f2dfb1ef283  insert key here and remove this text.json' Remove the text, 
+insert your own api json file from google and change the name of the file (remove the '  insert key here and remove this text' part.
 
-3: Make sure to double left click each of the AutoHotKey files, or .ahk files, since that activates the shortcut. If it stops working at some point,
+3: Make sure the program is downloaded right on to your disk, under "C:"
+
+4: Make sure to double left click each of the AutoHotKey files, or .ahk files, since that activates the shortcut. If it stops working at some point,
 a solution will often be, to go back and double left click these files again, sometimes the PC can deactivate the .ahk files.
 
 Shortcuts: Voice assistant; 'ctrl + alt + o', Screen assistant; 'ctrl + alt + p'
